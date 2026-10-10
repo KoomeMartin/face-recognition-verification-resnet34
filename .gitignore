@@ -1,0 +1,33 @@
+# Data (download from the course Kaggle competition)
+hw2p2_data/
+data/
+*.zip
+
+# Checkpoints
+checkpoints/
+*.pth
+*.pt
+
+# Kaggle outputs
+submission.csv
+cls_submission.csv
+ver_submission.csv
+utils/
+HW2P2-Student-Utils/
+
+# Experiment tracking
+wandb/
+
+# Credentials
+.env
+kaggle.json
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
